@@ -41,7 +41,7 @@ Edite os textos e links em `index.html` e as cores nos tokens de `styles/main.cs
 
 Os detalhes dos projetos usam HTML nativo e continuam disponíveis sem JavaScript. A galeria apresenta quatro etapas da plataforma de cursos, com descrição de cada tela e ampliação em diálogo. Há foco visível, atalho para o conteúdo, retorno do foco ao fechar diálogos, estados acessíveis e respeito ao movimento reduzido.
 
-As seis imagens originais foram convertidas para WebP, reduzindo o tamanho combinado em aproximadamente 76%. A página inclui imagem própria de compartilhamento, metadados sociais, carregamento adiado das imagens secundárias e revalidação por ETag.
+As seis imagens originais foram convertidas para WebP, reduzindo o tamanho combinado em aproximadamente 76%. A página inclui imagem própria de compartilhamento, metadados sociais e carregamento adiado das imagens secundárias. O Worker implementa revalidação por ETag, verificada nos testes; a hospedagem atual remove esse cabeçalho, então respostas 304 não estão disponíveis no endereço público.
 
 ## Segurança e privacidade
 
