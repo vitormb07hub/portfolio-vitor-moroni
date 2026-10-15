@@ -2,7 +2,7 @@
 
 Portfólio pessoal em HTML, CSS e JavaScript, sem dependências de execução. Visual equilibrado entre superfícies claras e azul-marinho, projetos com estudos de caso, galeria interativa e currículo para download.
 
-[Abrir o site](https://vitor-moroni-portfolio.rosyloach18.chatgpt.site/) · [Código no GitHub](https://github.com/vitormb07hub/portfolio-vitor-moroni)
+[Abrir o site](https://vitormoronibarrozo.rosyloach18.chatgpt.site/) · [Código no GitHub](https://github.com/vitormb07hub/portfolio-vitor-moroni)
 
 ## Executar
 
