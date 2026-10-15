@@ -1,0 +1,16 @@
+{
+  "name": "vitor-moroni-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio pessoal de Vitor Moroni Barrozo",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/check.mjs && node scripts/build.mjs && node scripts/check-worker.mjs",
+    "preview": "node scripts/serve.mjs --dist"
+  }
+}
